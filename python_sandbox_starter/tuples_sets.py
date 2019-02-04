@@ -28,8 +28,8 @@ fruits_set = {'Apples', 'Oranges', 'Mango'}
 # Check if in set
 print('Apples' in fruits_set)
 
-# Add to set
-fruits_set.add('Grape')
+# Add duplicate (can't have duplicates in sets)
+fruits_set.add('Apples')
 
 # Remove from set
 fruits_set.remove('Grape')
@@ -38,6 +38,6 @@ fruits_set.remove('Grape')
 fruits_set.clear()
 
 # Delete
-del fruits_set
+# del fruits_set
 
 print(fruits_set)
